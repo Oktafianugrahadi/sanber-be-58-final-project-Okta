@@ -7,7 +7,7 @@
 ### Method: POST
 
 > ```
-> http://localhost:3000/api/categories
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories
 > ```
 
 ### Body (**raw**)
@@ -25,7 +25,7 @@
 ### Method: GET
 
 > ```
-> http://localhost:3000/api/categories
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories
 > ```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
@@ -35,7 +35,7 @@
 ### Method: PUT
 
 > ```
-> http://localhost:3000/api/categories/:id
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories/:id
 > ```
 
 ### Body (**raw**)
@@ -57,7 +57,7 @@
 ### Method: GET
 
 > ```
-> http://localhost:3000/api/categories/:id
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories/:id
 > ```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
@@ -67,7 +67,7 @@
 ### Method: DELETE
 
 > ```
-> http://localhost:3000/api/categories/:id
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories/:id
 > ```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
@@ -79,7 +79,7 @@
 ### Method: POST
 
 > ```
-> http://localhost:3000/api/products
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/products
 > ```
 
 ### Body (**raw**)
@@ -110,7 +110,7 @@
 ### Method: GET
 
 > ```
-> http://localhost:3000/api/products
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/products
 > ```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
@@ -120,7 +120,7 @@
 ### Method: DELETE
 
 > ```
-> http://localhost:3000/api/products/:id
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/products/:id
 > ```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
@@ -130,7 +130,7 @@
 ### Method: PUT
 
 > ```
-> http://localhost:3000/api/products/:id
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/products/:id
 > ```
 
 ### Body (**raw**)
@@ -154,7 +154,7 @@
 ### Method: GET
 
 > ```
-> http://localhost:3000/api/products/:id
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/products/:id
 > ```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
@@ -166,7 +166,7 @@
 ### Method: POST
 
 > ```
-> http://localhost:3000/api/auth/register
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/auth/register
 > ```
 
 ### Body (**raw**)
@@ -204,7 +204,7 @@
 ### Method: POST
 
 > ```
-> http://localhost:3000/api/auth/login
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/auth/login
 > ```
 
 ### Body (**raw**)
@@ -233,7 +233,7 @@
 ### Method: GET
 
 > ```
-> http://localhost:3000/api/auth/me
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/auth/me
 > ```
 
 ### 🔑 Authentication bearer
@@ -251,7 +251,7 @@
 ### Method: POST
 
 > ```
-> http://localhost:3000/api/orders
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/orders
 > ```
 
 ### Body (**raw**)
@@ -291,7 +291,7 @@
 ### Method: DELETE
 
 > ```
-> http://localhost:3000/api/orders/:id
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/orders/:id
 > ```
 
 ### 🔑 Authentication bearer
@@ -307,7 +307,7 @@
 ### Method: PUT
 
 > ```
-> http://localhost:3000/api/orders/:id
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/orders/:id
 > ```
 
 ### Body (**raw**)
@@ -337,7 +337,7 @@
 ### Method: GET
 
 > ```
-> http://localhost:3000/api/orders/history
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/orders/history
 > ```
 
 ### 🔑 Authentication bearer
