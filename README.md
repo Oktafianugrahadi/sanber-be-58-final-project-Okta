@@ -1,16 +1,16 @@
 # 📁 NodeJS (ExpressJS) Batch 58
 
+## Best URL
+
+> ```
+> https://sanber-be-58-final-project-okta-production.up.railway.app
+> ```
+
 ## 📁 Categories
 
-## End-point: Create
+## POST - /api/categories (Buat kategori)
 
-### Method: POST
-
-> ```
-> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories
-> ```
-
-### Body (**raw**)
+### Request Body (**json**)
 
 ```json
 {
@@ -18,27 +18,80 @@
 }
 ```
 
+### Response Success (**json**)
+
+Status 201
+
+```json
+{
+  "data": {
+    "name": "Parabotann",
+    "_id": "66b63f095809fee1a224b533",
+    "createdAt": "2024-08-09T16:08:41.565Z",
+    "updatedAt": "2024-08-09T16:08:41.565Z",
+    "__v": 0
+  },
+  "message": "Success create category"
+}
+```
+
+### Response Error (**json**)
+
+Status 500
+
+```json
+{
+  "data": "400CD8F1097F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:1590:SSL alert number 80\n",
+  "message": "Failed create category"
+}
+```
+
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## End-point: Get All
+## GET - /api/categories (Tampilkan semua kategori)
 
-### Method: GET
+### Response Success (**json**)
 
-> ```
-> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories
-> ```
+Status 200
+
+```json
+{
+  "data": [
+    {
+      "_id": "66b5cf43864df478dfbfce1b",
+      "name": "Elektronik",
+      "createdAt": "2024-08-09T08:11:47.782Z",
+      "updatedAt": "2024-08-09T08:11:47.782Z",
+      "__v": 0
+    },
+    {
+      "_id": "66b5cf58864df478dfbfce1d",
+      "name": "Parabotan",
+      "createdAt": "2024-08-09T08:12:08.787Z",
+      "updatedAt": "2024-08-09T08:14:24.540Z",
+      "__v": 0
+    }
+  ],
+  "message": "Success get all category"
+}
+```
+
+### Response Error (**json**)
+
+Status 500
+
+```json
+{
+  "data": "400CD8F1097F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:1590:SSL alert number 80\n",
+  "message": "Failed get all category"
+}
+```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## End-point: Update
+## PUT - /api/categories/:id (Ubah kategori berdasarkan id)
 
-### Method: PUT
-
-> ```
-> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories/:id
-> ```
-
-### Body (**raw**)
+### Body (**json**)
 
 ```json
 // {
@@ -50,25 +103,99 @@
 }
 ```
 
+### Response Success (**json**)
+
+Status 200
+
+```json
+{
+  "data": {
+    "_id": "66b5cf58864df478dfbfce1d",
+    "name": "Parabotannn",
+    "createdAt": "2024-08-09T08:12:08.787Z",
+    "updatedAt": "2024-08-09T16:23:44.540Z",
+    "__v": 0
+  },
+  "message": "Success update category"
+}
+```
+
+### Response Error (**json**)
+
+Status 500
+
+```json
+{
+  "data": "400CD8F1097F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:1590:SSL alert number 80\n",
+  "message": "Failed update category"
+}
+```
+
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## End-point: Get One
+## GET - /api/categories/:id (Tampilkan satu kategori berdasarkan id)
 
-### Method: GET
+### Response Success (**json**)
 
-> ```
-> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories/:id
-> ```
+Status 200
+
+```json
+{
+  "data": {
+    "_id": "66b5cf58864df478dfbfce1d",
+    "name": "Parabotannn",
+    "createdAt": "2024-08-09T08:12:08.787Z",
+    "updatedAt": "2024-08-09T16:23:44.540Z",
+    "__v": 0
+  },
+  "message": "Success get one category"
+}
+```
+
+### Response Error (**json**)
+
+Status 500
+
+```json
+{
+  "data": "400CD8F1097F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:1590:SSL alert number 80\n",
+  "message": "Failed get one category"
+}
+```
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## End-point: Delete
+## DELETE - /api/categories/:id
 
-### Method: DELETE
+### Response Success (**json**)
 
-> ```
-> https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories/:id
-> ```
+Status 200
+
+```json
+{
+  "data": {
+    "_id": "66b63f095809fee1a224b533",
+    "name": "Parabotann",
+    "createdAt": "2024-08-09T16:08:41.565Z",
+    "updatedAt": "2024-08-09T16:08:41.565Z",
+    "__v": 0
+  },
+  "message": "Success delete category"
+}
+```
+
+### Response Error (**json**)
+
+Status 500
+
+```json
+{
+  "data": "400CD8F1097F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:1590:SSL alert number 80\n",
+  "message": "Failed delete category"
+}
+```
+
+⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
 ## 📁 Upload
 
@@ -114,7 +241,7 @@
 > https://sanber-be-58-final-project-okta-production.up.railway.app/api/products
 > ```
 
-### Body (**raw**)
+### Body (**json**)
 
 ```json
 {
@@ -165,7 +292,7 @@
 > https://sanber-be-58-final-project-okta-production.up.railway.app/api/products/:id
 > ```
 
-### Body (**raw**)
+### Body (**json**)
 
 ```json
 {
@@ -201,7 +328,7 @@
 > https://sanber-be-58-final-project-okta-production.up.railway.app/api/auth/register
 > ```
 
-### Body (**raw**)
+### Body (**json**)
 
 ```json
 // {
@@ -239,7 +366,7 @@
 > https://sanber-be-58-final-project-okta-production.up.railway.app/api/auth/login
 > ```
 
-### Body (**raw**)
+### Body (**json**)
 
 ```json
 // {
@@ -286,7 +413,7 @@
 > https://sanber-be-58-final-project-okta-production.up.railway.app/api/orders
 > ```
 
-### Body (**raw**)
+### Body (**json**)
 
 ```json
 {
@@ -342,7 +469,7 @@
 > https://sanber-be-58-final-project-okta-production.up.railway.app/api/orders/:id
 > ```
 
-### Body (**raw**)
+### Body (**json**)
 
 ```json
 {
