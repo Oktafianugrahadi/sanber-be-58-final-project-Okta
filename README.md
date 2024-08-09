@@ -123,7 +123,7 @@
   "images": [
     "https://res.cloudinary.com/dllzqbcsp/image/upload/v1721830288/f05nd7fdkhmcbexwxkyv.jpg"
   ],
-  "price": 289000,
+  "price": 2890000,
   "qty": 10,
   "category": "66b2eef3be13015862b1514b"
 }
