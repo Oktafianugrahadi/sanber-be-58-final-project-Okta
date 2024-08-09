@@ -1,6 +1,6 @@
-# 📁 Collection: NodeJS (ExpressJS) Batch 58
+# 📁 NodeJS (ExpressJS) Batch 58
 
-## 📁 Collection: Categories
+## 📁 Categories
 
 ## End-point: Create
 
@@ -70,7 +70,7 @@
 > https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories/:id
 > ```
 
-## 📁 Collection: Upload
+## 📁 Upload
 
 ## End-point: Single
 
@@ -104,7 +104,7 @@
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## 📁 Collection: Products
+## 📁 Products
 
 ## End-point: Create
 
@@ -191,7 +191,7 @@
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## 📁 Collection: User
+## 📁 User
 
 ## End-point: Registrasi
 
@@ -276,7 +276,7 @@
 
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
-## 📁 Collection: Order
+## 📁 Order
 
 ## End-point: Create
 
