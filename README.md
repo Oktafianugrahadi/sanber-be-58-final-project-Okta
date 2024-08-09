@@ -70,6 +70,38 @@
 > https://sanber-be-58-final-project-okta-production.up.railway.app/api/categories/:id
 > ```
 
+## 📁 Collection: Upload
+
+## End-point: Single
+
+### Method: POST
+
+> ```
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/upload/single
+> ```
+
+### Body formdata
+
+| Param | value                                                 | Type |
+| ----- | ----------------------------------------------------- | ---- |
+| file  | postman-cloud:///1ef49c69-8ff1-41a0-a879-99cafbbc8b59 | file |
+
+⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
+
+## End-point: Multiple
+
+### Method: POST
+
+> ```
+> https://sanber-be-58-final-project-okta-production.up.railway.app/api/upload/multiple
+> ```
+
+### Body formdata
+
+| Param | value | Type |
+| ----- | ----- | ---- |
+| files |       | text |
+
 ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃ ⁃
 
 ## 📁 Collection: Products
