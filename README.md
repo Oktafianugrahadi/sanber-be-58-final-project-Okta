@@ -573,7 +573,7 @@ Status 500
 // }
 
 {
-  "email": "oktafianugrahadi95@gmail.com",
+  "email": "demo@gmail.com",
   "fullName": "Oktafianugrahadi",
   "password": "123456",
   "username": "okta_user",
@@ -581,7 +581,7 @@ Status 500
 }
 
 // {
-//   "email": "oktafianugrahadi95@gmail.com",
+//   "email": "demo@gmail.com",
 //   "fullName": "Oktafianugrahadi",
 //   "password": "123456",
 //   "username": "okta",
@@ -639,7 +639,7 @@ Status 500
 // }
 
 {
-  "email": "oktafianugrahadi195@gmail.com",
+  "email": "demo@gmail.com",
   "password": "123456"
 }
 ```
@@ -687,7 +687,7 @@ Status 200
     "_id": "66b5d0a0864df478dfbfce28",
     "fullName": "Oktafianugrahadi",
     "username": "okta_user",
-    "email": "oktafianugrahadi195@gmail.com",
+    "email": "demo@gmail.com",
     "roles": ["user"],
     "profilePicture": "default.jpg",
     "createdAt": "2024-08-09T08:17:36.786Z",
@@ -934,7 +934,7 @@ Status 200
         "_id": "66b5d0a0864df478dfbfce28",
         "fullName": "Oktafianugrahadi",
         "username": "okta_user",
-        "email": "oktafianugrahadi195@gmail.com",
+        "email": "demo@gmail.com",
         "roles": ["user"],
         "profilePicture": "default.jpg",
         "createdAt": "2024-08-09T08:17:36.786Z",
